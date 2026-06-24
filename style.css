@@ -1,0 +1,128 @@
+.bg-container{
+    background-color: #1490c9;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 0px 15px;
+}
+.top-section{
+    background-color: #1490c9;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.guess-game-img{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.game-description{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-style:oblique;
+    font-weight: bold;
+    max-width: 500px;
+    margin: 0 auto 40px;
+}
+.guess-bg-container{
+    background-color: rgba(225, 225, 225, 0.12);
+    margin-bottom: 30px; 
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+.guess-heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+.guess-number-image{
+    width: 50px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-7px);
+    }
+    
+}
+*{
+    box-sizing: border-box;
+}
+.user-input{
+    text-align: center;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    /* background-color: #f8f8f5;
+    transition: background-color 0.2s ease-out; */
+}
+.user-input:focus{
+    border: 3px solid #ffc107;
+}
+.button-container{
+    padding: 2px;
+}
+.check-guess {
+    margin-top: 30px;
+    background-color: #f2a634;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 35px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.check-guess:hover{
+    transform: scale(1.05);
+    background-color: #ff9900;
+}
+.reset-btn{
+    background-color: #6c757d;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 35px;
+    margin-left: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.reset-btn:hover{
+    transform: scale(1.05);
+    background-color: #55616b;
+}
+ .footer-bg{
+    background-color: white;
+    color: #333;
+    padding: 25px;
+    text-align: center;
+    border-top: 3px solid #1f8fc2;
+}
+
+.footer-bg h3{
+    color: #1f8fc2;
+    margin-bottom: 10px;
+}
+.game-result{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
