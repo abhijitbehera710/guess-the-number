@@ -25,7 +25,7 @@ Try to guess the correct number between 1 and 100.
 
 ## 🌐 Live Demo
 
-Coming Soon...
+[Guess The Number](https://abhijitbehera710.github.io/guess-the-number/)
 
 ## 👨‍💻 Author
 
